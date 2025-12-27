@@ -1,0 +1,4 @@
+└── data/
+    ├── products.json      # Database produk
+    └── transactions.json  # Database transaksi
+              </pre>

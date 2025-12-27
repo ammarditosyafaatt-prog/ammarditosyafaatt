@@ -1,0 +1,72 @@
+ body {
+      box-sizing: border-box;
+    }
+    
+    .page {
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      page-break-after: always;
+      min-height: 100%;
+    }
+    
+    .code-block {
+      background: #1e293b;
+      color: #e2e8f0;
+      border-radius: 8px;
+      padding: 16px;
+      overflow-x: auto;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    
+    .keyword { color: #f472b6; }
+    .string { color: #86efac; }
+    .comment { color: #94a3b8; font-style: italic; }
+    .function { color: #fbbf24; }
+    .number { color: #60a5fa; }
+    
+    .flowchart-box {
+      border: 2px solid #3b82f6;
+      border-radius: 8px;
+      padding: 12px;
+      margin: 8px;
+      background: white;
+      text-align: center;
+      font-weight: 600;
+    }
+    
+    .flowchart-diamond {
+      width: 160px;
+      height: 80px;
+      background: white;
+      border: 2px solid #f59e0b;
+      transform: rotate(45deg);
+      margin: 20px auto;
+      position: relative;
+    }
+    
+    .flowchart-diamond-text {
+      transform: rotate(-45deg);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-45deg);
+      width: 140px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    
+    .arrow {
+      text-align: center;
+      font-size: 24px;
+      color: #3b82f6;
+      margin: -8px 0;
+    }
+    
+      .page {
+        box-shadow: none;
+      }
+      .no-print {
+        display: none;
+      }
